@@ -1,0 +1,416 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1614247912229-26a7e2114c0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80s");
+  background-repeat: repeat;
+  background-size: contain;
+  margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #250047ac;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.logo {
+  margin: 0;
+}
+.logo > img {
+  height: 70px;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.nav-links li {
+  margin: 0 10px;
+}
+.nav-links li a {
+  font-family: "Lemon Milk";
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+}
+.nav-links li a:hover {
+  border-bottom: 2px solid #fff;
+}
+.reg-button {
+  margin: 0;
+}
+.reg-button button {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Lemon Milk";
+  font-size: 18px;
+  color: white;
+  background-color: #ee6291;
+  border: 3px solid #ee2769;
+  border-radius: 90px;
+  padding: 10px 24px;
+  transition: 500ms;
+}
+.reg-button button:hover {
+  transform: translateY(-10px);
+  background-color: #ea3b75cc;
+  border: 3px solid #ee276948;
+  color: white;
+}
+
+/* Hero Section - Signature Guitars */
+.sig-guitars {
+  background-image: url("./images/backdrop1.jpg");
+  background-size: cover;
+  height: 900px;
+  overflow: hidden;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.col {
+  flex-basis: 50%;
+  margin-left: 5rem;
+  margin-top: 6rem;
+}
+#text {
+  color: white;
+  font-family: "Lemon Milk";
+  margin-top: 15rem;
+  text-shadow: 3rem -3rem 2rem;
+}
+#text > h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+#text > button {
+  width: 180px;
+  padding: 8px;
+  background: #ffffffed;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: 500ms;
+  box-shadow: 2rem -1rem 2rem #00000081;
+  cursor: pointer;
+}
+#text > button:hover {
+  box-shadow: -1rem 1rem 2rem #00000081;
+  transform: translateY(5px);
+  background: #ffffff;
+}
+.rr {
+  text-decoration: none;
+  font-family: "Lemon Milk";
+  font-size: 15px;
+  font-weight: 500;
+}
+.tile {
+  width: 260px;
+  height: 300px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  margin: 1.7rem 20px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  box-shadow: 0rem 0rem 3rem #e950835b;
+}
+.tile:hover {
+  transform: translateY(-10px);
+  box-shadow: -1rem 1rem 2rem #000000a2;
+}
+.tile1 {
+  background-image: url("./images/g1.jpg");
+  font-family: "Lemon Milk";
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  text-shadow: -0.5rem 0.2rem 0.5rem #0000009d;
+  margin-left: 0;
+}
+.tile2 {
+  background-image: url("https://images.unsplash.com/photo-1540281772389-9c107ba8c7c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=377&q=80");
+  font-family: "Lemon Milk";
+  text-align: right;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  text-shadow: 0.5rem 0.2rem 0.5rem #ffffff;
+}
+.tile3 {
+  background-image: url("https://i.pinimg.com/originals/b5/64/2b/b5642b03900b291085e2928b9bb77ff9.jpg");
+  font-family: "Lemon Milk";
+  text-align: right;
+  color: #ffffff;
+  font-weight: bolder;
+  text-shadow: -0.5rem 0.2rem 0.5rem #ffffff85;
+  margin-left: 0;
+}
+.tile4 {
+  background-image: url("https://th.bing.com/th/id/R.12523cb301bd73a12ffbcd2d4b5715e4?rik=3wXxtFuCOSnhvQ&riu=http%3a%2f%2fimages.gibson.com%2fLifestyle%2fEnglish%2faaFeaturesImages2010%2fLewis_1_GaryRossingtonJPP179.jpg&ehk=FlWRsvzFeuSoPGGbkZCdr3vxgEhCxQ6sLOxDCskhSok%3d&risl=&pid=ImgRaw&r=0");
+  font-family: "Lemon Milk";
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  text-shadow: 0.5rem 0.2rem 0.5rem #000000b3;
+}
+
+/* Signature Drums Section */
+.sig-drums {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(105, 38, 199) 0%,
+    rgb(81, 36, 100) 54%,
+    rgb(126, 42, 175) 100%
+  );
+}
+.drums {
+  height: 50vh;
+  margin: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+.drums-text {
+  position: relative;
+  font-family: "Lemon Milk";
+  font-size: 3.5rem;
+  color: white;
+  margin: 0;
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+.punchline {
+  position: relative;
+  font-family: "Lemon Milk";
+  font-size: 1.4rem;
+  color: white;
+  margin: 0;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+.drums-description {
+  font-family: "Lemon Milk";
+  color: white;
+  margin: 0;
+  margin-right: 80px;
+}
+.button1 {
+  width: 260px;
+  padding: 8px;
+  background: #ffffffed;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: 500ms;
+  box-shadow: -1rem -1rem 2rem #ffffff25;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Lemon Milk";
+  font-size: 15px;
+  font-weight: 500;
+}
+.button1:hover {
+  box-shadow: 0.5rem 1rem 2rem #ffffff25;
+  transform: translateY(-5px);
+  background: #ffffff;
+}
+
+/* Signature Piano Section */
+.sig-pianos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(40, 0, 97) 0%,
+    rgb(127, 16, 245) 54%,
+    rgb(42, 2, 128) 100%
+  );
+}
+.pianos {
+  height: 50vh;
+  margin: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+.pianos-text {
+  position: relative;
+  font-family: "Lemon Milk";
+  font-size: 3.5rem;
+  color: white;
+  margin: 0;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.pianos-description {
+  font-family: "Lemon Milk";
+  color: white;
+  margin: 0;
+  margin-left: 80px;
+}
+.button2 {
+  width: 260px;
+  padding: 8px;
+  background: #ffffffed;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-left: 80px;
+  transition: 500ms;
+  box-shadow: -1rem -1rem 2rem #ffffff25;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Lemon Milk";
+  font-size: 15px;
+  font-weight: 500;
+}
+.button2:hover {
+  box-shadow: 0.5rem 1rem 2rem #ffffff25;
+  transform: translateY(-5px);
+  background: #ffffff;
+}
+
+/* Our Artists Section  */
+.our-artists-section {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.section-title {
+  color: #6a3fc7;
+  font-family: "Lemon Milk";
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+}
+.artists {
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.artist-card {
+  max-width: 400px;
+  margin: 0;
+  background-color: #44007f;
+  padding: 20px;
+  margin-bottom: 65px;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+}
+.artist-card:hover {
+  max-width: 420px;
+  transform: translateY(-20px);
+}
+.artist-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+.artist-name {
+  font-family: "Lemon Milk";
+  color: #81f225;
+  margin: 0;
+  margin-top: 15px;
+}
+.artist-description {
+  color: #81f225;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  background-color: #23014a;
+  height: 400px;
+  align-items: center;
+}
+.subtext {
+  font-family: "Lemon Milk";
+  font-size: 4rem;
+  color: #ffffff;
+  padding-left: 120px;
+  padding-bottom: 5px;
+}
+form {
+  max-height: 300px;
+  max-width: 500px;
+  font-family: "Roboto";
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 1.2rem;
+  flex-basis: 40%;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+}
+input[type="submit"] {
+  background-color: #ee2769dd;
+  font-family: "Lemon Milk";
+  color: #fff;
+  padding: 12px 22px;
+  border: 2px solid #ee2769;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 500ms;
+}
+input[type="submit"]:hover {
+  background-color: #7e11ac;
+}
+
+/* Address bar */
+.address-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+  border-top: 3px solid rgb(255, 255, 255);
+  background-color: #00000081;
+  color: white;
+  padding: 1rem;
+  border-top: 8px solid #ffffff4f;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Lemon Milk";
+}
+#terms {
+  font-family: "Arial";
+}
+#creds {
+  font-family: "Lemon Milk";
+  color: gray;
+}
